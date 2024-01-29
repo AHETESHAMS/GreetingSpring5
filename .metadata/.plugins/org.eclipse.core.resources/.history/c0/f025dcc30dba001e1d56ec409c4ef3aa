@@ -1,0 +1,14 @@
+package com.bridgelabz.model;
+
+import org.springframework.data.relational.core.mapping.Table;
+
+import lombok.Data;
+
+@Table(name="greeting")
+@Data
+public class Greeting {
+	
+	private Long id;
+	private String message;
+
+}

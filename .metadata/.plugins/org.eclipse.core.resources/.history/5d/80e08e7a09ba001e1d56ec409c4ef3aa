@@ -1,0 +1,9 @@
+package com.bridgelabz.repository;
+
+import org.springframework.data.r2dbc.repository.R2dbcRepository;
+
+import com.bridgelabz.model.Greeting;
+
+public interface GreetingRepository extends R2dbcRepository<Greeting, Long> {
+
+}

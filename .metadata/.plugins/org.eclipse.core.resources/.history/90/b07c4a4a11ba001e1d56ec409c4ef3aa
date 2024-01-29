@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS greeting (
+    id BIGINT PRIMARY KEY,
+    message VARCHAR(255)
+);

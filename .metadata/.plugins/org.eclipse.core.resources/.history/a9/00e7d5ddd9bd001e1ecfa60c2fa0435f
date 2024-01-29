@@ -1,0 +1,11 @@
+package com.bridgelabz.service;
+
+import com.bridgelabz.model.Greeting;
+
+import reactor.core.publisher.Mono;
+
+public interface GreetingService {
+
+	Mono<Greeting> save(Greeting greeting);
+
+}

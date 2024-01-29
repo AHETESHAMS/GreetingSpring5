@@ -1,0 +1,18 @@
+package com.bridgelabz.service;
+
+import org.springframework.stereotype.Service;
+
+import com.bridgelabz.model.Greeting;
+
+import reactor.core.publisher.Mono;
+
+@Service
+public class GreetingServiceImpl implements GreetingService {
+
+	@Override
+	public Mono<Greeting> save(Greeting greeting) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
